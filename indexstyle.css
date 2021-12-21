@@ -1,0 +1,135 @@
+body {
+	margin: 0px;
+	background: url("../images/background.jpg") fixed left top;
+}
+header {
+	background-color: #eaa5f2;
+	vertical-align: center;
+	border: 5px inset #a010b0;
+	padding: 10px;
+}
+h1 {
+	color: #a010b0;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+}
+h4#titlesub {
+	color: #a010b0;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+}
+nav {
+	background-color: #eaa5f2;
+	height: 40px;
+}
+a.navlink {
+	background-color: #eaa5f2;
+	color: #6e2a7e;
+	border-right: 1px solid #fbebff;
+	border-bottom: 3px solid #b04cc8;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+	height: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+a.navlink:hover {
+	background-color: #6e2a7e;
+	color: #e3c3ea;
+	border-bottom: 3px solid #c25ada;
+}
+a.navlink:active {
+	background-color: #9a2ab4;
+	color: #e3c3ea;
+	border-bottom: 3px solid #c25ada;
+}
+nav h4 {
+	margin: 0px;
+}
+div#contents {
+	margin: 30px;
+}
+section.contents h3 {
+	color: #701080;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+}
+section#contents1 {
+	margin: 10px
+}
+div#imgcont1 {
+	border: 1px solid black;
+	padding: 9px;
+	margin: 10px;
+	float: right;
+	width: 200px;
+	background-color: #f0f0f0;
+	font: 12px black;
+	font-family: Arial, sans-serif;
+}
+img#img1 {
+	width: 200px;
+}
+section#contents2 {
+	margin: 10px
+}
+div#imgcont2 {
+	border: 1px solid black;
+	padding: 9px;
+	margin: 10px 30px 10px 10px;
+	float: left;
+	width: 100px;
+	background-color: #f0f0f0;
+	font: 12px black;
+	font-family: Arial, sans-serif;
+}
+img#img2 {
+	width: 100px;
+}
+p, ul {
+	color: #805090;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+section#links {
+	margin: 30px;
+}
+.sectionheader {
+	color: #701080;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+}
+article.links {
+	width: 600px;
+	height: 480px;
+	margin: 15px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+	border: 3px outset #b04cc8;
+	background-color: #eaa5f2;
+	color: #6e2a7e;
+}
+article.links:hover {
+	border: 3px dotted #c25ada;
+	background-color: #6e2a7e;
+	color: #e3c3ea;
+}
+article.links:active {
+	border: 3px solid #c25ada;
+	background-color: #9a2ab4;
+	color: #e3c3ea;
+}
+img.linkimg {
+	width: 570px;
+}
+footer {
+	background-color: #9a2ab4;
+	color: #e3c3ea;
+	font-family: Arial Rounded MT Bold, Arial, sans-serif;
+	border: 5px outset #a010b0;
+	padding: 25px;
+	height: 180px;
+}
+footer h3, footer h4 {
+	margin: 10px;
+}
